@@ -61,7 +61,7 @@ These are the logs that were ingested into Splunk after configuring GPO for Powe
 </p>
 
 ## Conclusion
-As PowerShell is used as one of the top Mitre ATT&CK techniques, [red canary 2020 Threat Detection Report][redcanary-report] and [FireEye M-Trends 2020 pdf page 20][fireeye-mtrends], I believe it would be prudent to configure detections for PowerShell Core being installed and leveraged - even if you're not currently using PowerShell Core in your environment - so that when it shows up, you will know.
+As PowerShell is used as one of the top Mitre ATT&CK techniques, [Red Canary 2020 Threat Detection Report][redcanary-report] and [FireEye M-Trends 2020 pdf page 20][fireeye-mtrends], I believe it would be prudent to configure detections for PowerShell Core being installed and leveraged - even if you're not currently using PowerShell Core in your environment - so that when it shows up, you will know.
 
 [asd-guidance]:		        https://www.cyber.gov.au/publications/windows-event-logging-and-forwarding
 [core-installinstructions]: https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-windows?view=powershell-7
