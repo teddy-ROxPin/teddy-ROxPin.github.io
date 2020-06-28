@@ -44,7 +44,7 @@ These are the default logs that were ingested into Splunk prior to configuring a
 </p>
 
 ## [Configure PowerShell Core Logging via GPO][gpo-guidance]
-1. Obtain `PowerShellCoreExecutionPolicy.adml` and `PowerShellCoreExecutionPolicy.adml` by either:
+1. Obtain `PowerShellCoreExecutionPolicy.adml` and `PowerShellCoreExecutionPolicy.admx` by either:
     * Installing PowerShell 7 via [msi][core-release] on a host then retrieving the files from `C:\Program Files\PowerShell\7\`
         * or
     * Downloading the [zip][core-release] file and retrieving the files from the archive.
